@@ -132,12 +132,6 @@ class TocObject {
 
   }
 
-  /**
-   * @return {Boolean}
-   */
-  isEmpty() {
-    return this._disabled === true || !this._text;
-  }
 
 }
 
