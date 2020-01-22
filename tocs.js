@@ -19,7 +19,7 @@ const possibleCases = [1, 2, 3, 4];
 class TocObject {
 
   constructor(tableOfContents) {
-    this._disabled = true;
+    this._disabled = false;
     this._text = null;
     this._id = null;
     this._lang = null;
