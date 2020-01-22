@@ -120,7 +120,7 @@ class TocObject
     }
 
     indentation = indentation.replace(
-      new RegExp('\\w+(\\d+)', 'g'),
+      new RegExp('\\w+', 'g'),
       (groupMatch, match) =>
       {
         return match;
